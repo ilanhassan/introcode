@@ -1,0 +1,122 @@
+/* style.css */
+
+<.feature,.defi{
+  border: 1px solid #F2F2F2;
+  background: #F7EDED;
+  margin: 22px;
+  padding: 22px 0;
+  text-align: center;
+  width: 400px;
+}
+
+nav li {
+  margin: 30px;
+  display:inline;
+}
+
+nav ul {
+  float: left;
+  margin-top: 25px;
+}
+
+body{
+  background: #fff;
+  color: #000; 
+  font-size: 16px;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin:0;
+}
+
+nav{
+  display:inline;
+  font-size: 1em;
+  font-family: 'Source Sans Pro', sans-serif;
+} 
+
+h1{
+  font-family: 'Roboto', sans-serif;
+  color:  #49A3C0; 
+  font-weight: bolder;
+  font-size: 2em;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 1.5em;
+}
+
+p{
+  color: #f06eaa;
+}
+
+a { 
+  color: #29324B;
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(100, 0, 209);
+}
+
+#logo{
+  color: yellow;
+  font-size: 60px;
+  font-family: 'Pacifico', cursive;
+  float: left;
+  margin-left: 50px;
+}
+
+/* Mis en forme de la baseline */
+#baseline{
+  background-color: #41A3C0;
+  text-align: center;
+  background-size: cover;
+  padding: 150px;
+  color: pink;
+  text-shadow: 1px 1px 5px black;
+}
+
+#baseline h1 {
+  color: green;
+  font-size: 50px;
+}
+
+#baseline a {
+  color: black;
+  font-size: 30px;
+  font-weight: lighter;
+  text-decoration: none;
+}
+
+ #apropos{
+  margin: 0 auto;
+  width: 50%;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#baseline a:hover {
+  position: relative;
+  top:1px;
+}
+
+#welcome{
+  background-color: grey;
+  text-align: center;
+  padding: 100px;
+  color: green;
+}
+
+#welcome h4{
+ font-size: 65px;
+}
+
+#defis{
+  background-color: orange;
+  text-align: center;
+  padding: 150px;
+  color: yellow;
+}
